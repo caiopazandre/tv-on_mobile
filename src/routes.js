@@ -13,7 +13,7 @@ const Stack = createStackNavigator();
 
 export default function App() {
 
-  const createButtonAlert = () =>
+  const createButtonAlertForExit = () =>
     Alert.alert(
       "Sair",
       "Realmente deseja sair?",
@@ -29,6 +29,11 @@ export default function App() {
       ],
       { cancelable: false }
     );
+    const createButtonAlertForWorning = () => 
+    Alert.alert(
+      "Ajuda",
+      "     Se nenhum canal estiver disponível no momento ou estiver tendo problemas para assistir os canais, recomendamos que verifique sua conexão com a internet e se necessário reinicie o aplicativo."
+    )
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -40,8 +45,9 @@ export default function App() {
             },
             headerRight: () => (
               <View style={{flexDirection: 'row', marginRight: 10}}>
-                <Button title="" image={require("./assets/search.png")} onPress={() => console.log('Search list')} />
-                <Button title="" image={require("./assets/exit.png")} onPress={createButtonAlert} />
+                {/* <Button title="" image={require("./assets/search.png")} onPress={() => console.log('Search list')} /> */}
+                <Button title="" image={require("./assets/help.png")} onPress={createButtonAlertForWorning} />
+                <Button title="" image={require("./assets/exit.png")} onPress={createButtonAlertForExit} />
               </View>
             ),
 

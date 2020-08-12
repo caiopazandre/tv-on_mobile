@@ -9,7 +9,6 @@ export default class VideoPlay extends React.Component {
   render() {
     return (
       <Video
-        usePoster={true}
         source={{ uri: this.props.link }}
         rate={1.0}
         volume={1.0}
@@ -18,7 +17,9 @@ export default class VideoPlay extends React.Component {
         shouldPlay
         isLooping={false}
         useNativeControls
-        posterSource={require('../../assets/loading.png')}
+        posterStyle={{width: '100%', height: '120%'}}
+        usePoster={true}
+        posterSource={require('../../assets/load.png')}
         style={styles.videoMini}
       />
     );

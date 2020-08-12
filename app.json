@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Tv On",
+    "slug": "tv-on",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.redcoat.tvon",
+      "buildNumber": "1.0.0"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5924494372714654~8657793107"
+      },
+      "package": "com.redcoat.tvon",
+      "versionCode": 1
     }
   }
 }

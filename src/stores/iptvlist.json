@@ -1,0 +1,104 @@
+{
+    "datas": [
+        {
+            "key": "SBT",
+            "link": "http://192.99.46.182:1935/pioneira-tv3/pioneira-tv3/playlist.m3u8"
+        },
+        {
+            "key": "Record",
+            "link": "http://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8"
+        },
+        {
+            "key": "Band",
+            "link": "http://evpp.mm.uol.com.br:1935/geob_band/app/chunklist_w939013782.m3u8"
+        },
+        {
+            "key": "RedeTV",
+            "link": "https://redetv01-lh.akamaihd.net/i/redetv01_1@1010585/master.m3u8"
+        },
+        {
+            "key": "Gospel TV",
+            "link": "https://stmv6.srvstm.com/gmusic/gmusic/playlist.m3u8"
+        },
+        {
+            "key": "Retro",
+            "link": "http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8"
+        },
+        {
+            "key": "CNN",
+            "link": "https://streaming.cnnbrasil.com.br/cnndigital_main.m3u8"
+        },
+        {
+            "key": "Porto Canal",
+            "link": "https://streamer-a03.videos.sapo.pt/live/portocanal/playlist.m3u8"
+        },
+        {
+            "key": "RTP",
+            "link": "https://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8"
+        },
+        {
+            "key": "Futura",
+            "link": "http://srv3.zoeweb.tv:1935/z01-live/stream/livestream.m3u8 "
+        },
+        {
+            "key": "Agro Brasil TV",
+            "link": "http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8"
+        },
+        {
+            "key": "TVSV",
+            "link": "http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8"
+        },
+        {
+            "key": "CTS",
+            "link": "http://173.236.10.10:1935/webtvminas/webtvminas/live.m3u8 "
+        },
+        {
+            "key": "teleSUR",
+            "link": "https://d2ajt1gpdtnw25.cloudfront.net/mbliveMain/hd/playlist.m3u8"
+        },
+        {
+            "key": "RT 1",
+            "link": "https://rt-news.secure.footprint.net/1103_2500Kb.m3u8"
+        },
+        {
+            "key": "RT 2",
+            "link": "https://rt-esp.secure.footprint.net/1102_2500Kb.m3u8"
+        },
+        {
+            "key": "RT 3",
+            "link": "https://rt-doc.secure.footprint.net/1101_2500Kb.m3u8"
+        },
+        {
+            "key": "GGTN",
+            "link": "https://live.cgtn.com/1000/prog_index.m3u8"
+        },
+        {
+            "key": "Channel Sport",
+            "link": "https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8"
+        },
+        {
+            "key": "YAS",
+            "link": "https://admdn1.cdn.mangomolo.com/yastv/smil:yastv.stream.smil/playlist.m3u8"
+        },
+        {
+            "key": "Channel 0",
+            "link": "https://14398c.ha.azioncdn.net/primary/smil:tv_universal.smil/playlist.m3u8"
+        },
+        {
+            "key": "Channel 1",
+            "link": "http://www.toonxtv.net/hls/loco_ch/stream.m3u8"
+        },
+        {
+            "key": "Channel 2",
+            "link": "https://14398c.ha.azioncdn.net/primary/smil:tv_universal.smil/playlist.m3u8"
+        },
+        {
+            "key": "Channel 3",
+            "link": "https://stmv1.srvstm.com/gospelcartoon2/gospelcartoon2/playlist.m3u8"
+        },
+        {
+            "key": "",
+            "link": ""
+        }
+    ]
+}

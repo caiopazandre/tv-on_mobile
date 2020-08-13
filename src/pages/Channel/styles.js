@@ -6,10 +6,5 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    banner:{
-        position: 'absolute',
-        top: 0,
-        alignSelf: 'center'
-    }
 });
 export default styles;

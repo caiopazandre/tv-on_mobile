@@ -1,13 +1,12 @@
 // In App.js in a new project
 
 import * as React from 'react';
-import { Alert, BackHandler, StyleSheet, View } from 'react-native';
+import { Alert, BackHandler, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './pages/Home';
 import Channel from './pages/Channel';
 import Button from './components/Button';
-import styles from './pages/Home/styles';
 
 const Stack = createStackNavigator();
 
@@ -45,17 +44,14 @@ export default function App() {
             },
             headerRight: () => (
               <View style={{flexDirection: 'row', marginRight: 10}}>
-                {/* <Button title="" image={require("./assets/search.png")} onPress={() => console.log('Search list')} /> */}
                 <Button title="" image={require("./assets/help.png")} onPress={createButtonAlertForWorning} />
                 <Button title="" image={require("./assets/exit.png")} onPress={createButtonAlertForExit} />
               </View>
             ),
 
             headerStyle: {
-              //backgroundColor: '#FFA500'
               backgroundColor: "#fff"
             },
-            //headerTintColor: '#ffc04c',
             headerTintColor: "#FFA500",
             headerTitleStyle: {
               fontSize: 23,

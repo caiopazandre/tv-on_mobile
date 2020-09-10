@@ -2,11 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { FlatList, ActivityIndicator, View } from 'react-native';
 import styles from './styles';
 import Button from '../../components/Button';
-import Banner from '../../components/Banner';
 
 const apiChannels = 'https://tv-on-api.rj.r.appspot.com/channels/search/portuguese';
-const bannerIdHome = 'ca-app-pub-5924494372714654/8935735521';
-const bannerIdChannel = 'ca-app-pub-5924494372714654/6352205729';
 
 export default function Home({ navigation }) {
 
@@ -22,7 +19,7 @@ export default function Home({ navigation }) {
   }, []);
   return (
     <View style={styles.container}>
-      <View style={{ marginBottom: 50 }}>
+      <View>
         {isLoading ? <ActivityIndicator /> : (
           <FlatList
             data={data}
@@ -30,10 +27,6 @@ export default function Home({ navigation }) {
           />
         )}
       </View>
-      <View style={styles.banner}>
-        <Banner type="banner" id={bannerIdHome} />
-        <Banner type="banner" id={bannerIdChannel} />
-      </View >
     </View>
   );
 }

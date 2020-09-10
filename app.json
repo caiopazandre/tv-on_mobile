@@ -23,9 +23,6 @@
       "buildNumber": "1.0.0"
     },
     "android": {
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-5924494372714654~8657793107"
-      },
       "package": "com.redcoat.tvon",
       "versionCode": 1
     }

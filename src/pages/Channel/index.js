@@ -2,11 +2,11 @@ import React from 'react';
 import { View, StatusBar } from 'react-native';
 import styles from './styles';
 import Video from '../../components/Video';
-//import Banner from '../../components/Banner';
+import { useKeepAwake } from 'expo-keep-awake';
 
-//const bannerIdChannel = 'ca-app-pub-5924494372714654/6352205729';
 
 export default function Channel({ route }) {
+  useKeepAwake();
   const {link} = route.params;
   return (
     <View style={styles.container}>

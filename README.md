@@ -6,8 +6,9 @@
 
 ## Contruction App
 
+_NULL_
 
-# Future Ideas 
+## Future Ideas 
 * colocar para aparecer mais de um tipo de video
 * melhorar 'loading' dos videos
 * quando nenhum resultado aparecer, colocar como opção de pesquisa de canais, se for encontrado custa dois reais.

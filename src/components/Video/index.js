@@ -1,27 +1,23 @@
-import React from 'react';
-import { Video } from 'expo-av';
-import styles from './styles';
+import React, { Component } from 'react';
+import { Video } from 'expo-av'
+import VideoPlayer from 'expo-video-player'
 
-import { View } from 'react-native';
-
-export default class VideoPlay extends React.Component {
+export default class VideoPlay extends Component {
+  
   render() {
     return (
-      <View>
-        <Video
-          source={{ uri: this.props.link }}
-          rate={1.0}
-          volume={1.0}
-          isMuted={false}
-          resizeMode="contain"
-          shouldPlay
-          isLooping={false}
-          posterStyle={{ width: '100%', height: '100%' }}
-          usePoster={true}
-          posterSource={require('../../assets/load.png')}
-          style={styles.videoMini}
+        <VideoPlayer
+          videoProps={{
+            shouldPlay: true,
+            resizeMode: Video.RESIZE_MODE_CONTAIN,
+            source: {
+              uri: this.props.link,
+            },
+          }}
+          inFullscreen={true}	
+          errorCallback={(err) => console.log('Error: ', err.message, err.type, err.obj)}
+          switchToPortrait={() => console.log('Pass your logic to switchToPortrait prop')}
         />
-      </View>
     );
   }
 }
